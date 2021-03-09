@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Mistrz/Dropbox/Pwr/Semestr 3/Tech Efektywnego Programowania/Lab/MatrixProject/Matrix.h
+iostream
+-
+cmath
+-
+fstream
+-
+vector
+-
+
+C:/Users/Mistrz/Dropbox/Pwr/Semestr 3/Tech Efektywnego Programowania/Lab/MatrixProject/main.cpp
+iostream
+-
+Matrix.h
+C:/Users/Mistrz/Dropbox/Pwr/Semestr 3/Tech Efektywnego Programowania/Lab/MatrixProject/Matrix.h
+
