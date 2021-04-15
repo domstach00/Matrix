@@ -8,18 +8,18 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Users/Mistrz/Dropbox/Pwr/Semestr 3/Tech Efektywnego Programowania/Lab/MatrixProject/cmake-build-debug"/>
+				<Option working_dir="C:/Users/domst/Dropbox/Pwr/Semestr 3/Tech Efektywnego Programowania/Lab/MatrixProject/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Mistrz/Dropbox/Pwr/Semestr 3/Tech Efektywnego Programowania/Lab/MatrixProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Mistrz/Dropbox/Pwr/Semestr 3/Tech Efektywnego Programowania/Lab/MatrixProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Mistrz/Dropbox/Pwr/Semestr 3/Tech Efektywnego Programowania/Lab/MatrixProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Mistrz/Dropbox/Pwr/Semestr 3/Tech Efektywnego Programowania/Lab/MatrixProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/domst/Dropbox/Pwr/Semestr 3/Tech Efektywnego Programowania/Lab/MatrixProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/domst/Dropbox/Pwr/Semestr 3/Tech Efektywnego Programowania/Lab/MatrixProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/domst/Dropbox/Pwr/Semestr 3/Tech Efektywnego Programowania/Lab/MatrixProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/domst/Dropbox/Pwr/Semestr 3/Tech Efektywnego Programowania/Lab/MatrixProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="MatrixProject">
-				<Option output="C:/Users/Mistrz/Dropbox/Pwr/Semestr 3/Tech Efektywnego Programowania/Lab/MatrixProject/cmake-build-debug/MatrixProject.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Mistrz/Dropbox/Pwr/Semestr 3/Tech Efektywnego Programowania/Lab/MatrixProject/cmake-build-debug"/>
+				<Option output="C:/Users/domst/Dropbox/Pwr/Semestr 3/Tech Efektywnego Programowania/Lab/MatrixProject/cmake-build-debug/MatrixProject.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/domst/Dropbox/Pwr/Semestr 3/Tech Efektywnego Programowania/Lab/MatrixProject/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -32,15 +32,15 @@
 					<Add directory="C:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Mistrz/Dropbox/Pwr/Semestr 3/Tech Efektywnego Programowania/Lab/MatrixProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 MatrixProject"/>
-					<CompileFile command="C:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Mistrz/Dropbox/Pwr/Semestr 3/Tech Efektywnego Programowania/Lab/MatrixProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Mistrz/Dropbox/Pwr/Semestr 3/Tech Efektywnego Programowania/Lab/MatrixProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Mistrz/Dropbox/Pwr/Semestr 3/Tech Efektywnego Programowania/Lab/MatrixProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/domst/Dropbox/Pwr/Semestr 3/Tech Efektywnego Programowania/Lab/MatrixProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 MatrixProject"/>
+					<CompileFile command="C:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/domst/Dropbox/Pwr/Semestr 3/Tech Efektywnego Programowania/Lab/MatrixProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/domst/Dropbox/Pwr/Semestr 3/Tech Efektywnego Programowania/Lab/MatrixProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/domst/Dropbox/Pwr/Semestr 3/Tech Efektywnego Programowania/Lab/MatrixProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="MatrixProject/fast">
-				<Option output="C:/Users/Mistrz/Dropbox/Pwr/Semestr 3/Tech Efektywnego Programowania/Lab/MatrixProject/cmake-build-debug/MatrixProject.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Mistrz/Dropbox/Pwr/Semestr 3/Tech Efektywnego Programowania/Lab/MatrixProject/cmake-build-debug"/>
+				<Option output="C:/Users/domst/Dropbox/Pwr/Semestr 3/Tech Efektywnego Programowania/Lab/MatrixProject/cmake-build-debug/MatrixProject.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/domst/Dropbox/Pwr/Semestr 3/Tech Efektywnego Programowania/Lab/MatrixProject/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -53,40 +53,40 @@
 					<Add directory="C:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Mistrz/Dropbox/Pwr/Semestr 3/Tech Efektywnego Programowania/Lab/MatrixProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 MatrixProject/fast"/>
-					<CompileFile command="C:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Mistrz/Dropbox/Pwr/Semestr 3/Tech Efektywnego Programowania/Lab/MatrixProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Mistrz/Dropbox/Pwr/Semestr 3/Tech Efektywnego Programowania/Lab/MatrixProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Mistrz/Dropbox/Pwr/Semestr 3/Tech Efektywnego Programowania/Lab/MatrixProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/domst/Dropbox/Pwr/Semestr 3/Tech Efektywnego Programowania/Lab/MatrixProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 MatrixProject/fast"/>
+					<CompileFile command="C:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/domst/Dropbox/Pwr/Semestr 3/Tech Efektywnego Programowania/Lab/MatrixProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/domst/Dropbox/Pwr/Semestr 3/Tech Efektywnego Programowania/Lab/MatrixProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/domst/Dropbox/Pwr/Semestr 3/Tech Efektywnego Programowania/Lab/MatrixProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="C:/Users/Mistrz/Dropbox/Pwr/Semestr 3/Tech Efektywnego Programowania/Lab/MatrixProject/cmake-build-debug"/>
+				<Option working_dir="C:/Users/domst/Dropbox/Pwr/Semestr 3/Tech Efektywnego Programowania/Lab/MatrixProject/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Mistrz/Dropbox/Pwr/Semestr 3/Tech Efektywnego Programowania/Lab/MatrixProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Mistrz/Dropbox/Pwr/Semestr 3/Tech Efektywnego Programowania/Lab/MatrixProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Mistrz/Dropbox/Pwr/Semestr 3/Tech Efektywnego Programowania/Lab/MatrixProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Mistrz/Dropbox/Pwr/Semestr 3/Tech Efektywnego Programowania/Lab/MatrixProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/domst/Dropbox/Pwr/Semestr 3/Tech Efektywnego Programowania/Lab/MatrixProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/domst/Dropbox/Pwr/Semestr 3/Tech Efektywnego Programowania/Lab/MatrixProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/domst/Dropbox/Pwr/Semestr 3/Tech Efektywnego Programowania/Lab/MatrixProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/domst/Dropbox/Pwr/Semestr 3/Tech Efektywnego Programowania/Lab/MatrixProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="C:/Users/Mistrz/Dropbox/Pwr/Semestr 3/Tech Efektywnego Programowania/Lab/MatrixProject/cmake-build-debug"/>
+				<Option working_dir="C:/Users/domst/Dropbox/Pwr/Semestr 3/Tech Efektywnego Programowania/Lab/MatrixProject/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Mistrz/Dropbox/Pwr/Semestr 3/Tech Efektywnego Programowania/Lab/MatrixProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Mistrz/Dropbox/Pwr/Semestr 3/Tech Efektywnego Programowania/Lab/MatrixProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Mistrz/Dropbox/Pwr/Semestr 3/Tech Efektywnego Programowania/Lab/MatrixProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Mistrz/Dropbox/Pwr/Semestr 3/Tech Efektywnego Programowania/Lab/MatrixProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/domst/Dropbox/Pwr/Semestr 3/Tech Efektywnego Programowania/Lab/MatrixProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/domst/Dropbox/Pwr/Semestr 3/Tech Efektywnego Programowania/Lab/MatrixProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/domst/Dropbox/Pwr/Semestr 3/Tech Efektywnego Programowania/Lab/MatrixProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/domst/Dropbox/Pwr/Semestr 3/Tech Efektywnego Programowania/Lab/MatrixProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/Mistrz/Dropbox/Pwr/Semestr 3/Tech Efektywnego Programowania/Lab/MatrixProject/Matrix.h">
+		<Unit filename="C:/Users/domst/Dropbox/Pwr/Semestr 3/Tech Efektywnego Programowania/Lab/MatrixProject/Matrix.h">
 			<Option target="MatrixProject"/>
 		</Unit>
-		<Unit filename="C:/Users/Mistrz/Dropbox/Pwr/Semestr 3/Tech Efektywnego Programowania/Lab/MatrixProject/main.cpp">
+		<Unit filename="C:/Users/domst/Dropbox/Pwr/Semestr 3/Tech Efektywnego Programowania/Lab/MatrixProject/main.cpp">
 			<Option target="MatrixProject"/>
 		</Unit>
-		<Unit filename="C:/Users/Mistrz/Dropbox/Pwr/Semestr 3/Tech Efektywnego Programowania/Lab/MatrixProject/CMakeLists.txt">
+		<Unit filename="C:/Users/domst/Dropbox/Pwr/Semestr 3/Tech Efektywnego Programowania/Lab/MatrixProject/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

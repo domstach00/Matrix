@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Mistrz/Dropbox/Pwr/Semestr 3/Tech Efektywnego Programowania/Lab/MatrixProject
+# Install script for directory: C:/Users/domst/Dropbox/Pwr/Semestr 3/Tech Efektywnego Programowania/Lab/MatrixProject
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/Mistrz/Dropbox/Pwr/Semestr 3/Tech Efektywnego Programowania/Lab/MatrixProject/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/domst/Dropbox/Pwr/Semestr 3/Tech Efektywnego Programowania/Lab/MatrixProject/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

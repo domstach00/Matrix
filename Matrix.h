@@ -5,6 +5,7 @@
 #include <cmath>
 #include <fstream>
 #include <vector>
+#include <algorithm>
 
 using namespace std;
 
@@ -153,7 +154,7 @@ Matrix<T>::~Matrix() {
     for (int i = 0; i < sizeVertical; ++i)
         delete[] matrix[i];
     delete[] matrix;
-    
+
     matrix = NULL;
 }
 
@@ -412,7 +413,8 @@ T Matrix<T>::get(int vertical, int horizontal) {
 
 template<typename T>
 int Matrix<T>::countLines(string path) {
-    ifstream file(path);
+    ifstream file;
+    file.open(path);
 
     if (!file.good()){
         cout << endl << "Blad podczas wczytywania pliku w metodzie countLines";
@@ -435,7 +437,6 @@ int Matrix<T>::countLines(string path) {
 
 template<typename T>
 int Matrix<T>::countWidth(string path, int linesNr) {
-
     ifstream file;
     file.open(path);
 

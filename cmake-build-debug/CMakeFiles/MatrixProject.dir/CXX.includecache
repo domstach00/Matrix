@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Mistrz/Dropbox/Pwr/Semestr 3/Tech Efektywnego Programowania/Lab/MatrixProject/Matrix.h
+C:/Users/domst/Dropbox/Pwr/Semestr 3/Tech Efektywnego Programowania/Lab/MatrixProject/Matrix.h
 iostream
 -
 cmath
@@ -15,10 +15,12 @@ fstream
 -
 vector
 -
+algorithm
+-
 
-C:/Users/Mistrz/Dropbox/Pwr/Semestr 3/Tech Efektywnego Programowania/Lab/MatrixProject/main.cpp
+C:/Users/domst/Dropbox/Pwr/Semestr 3/Tech Efektywnego Programowania/Lab/MatrixProject/main.cpp
 iostream
 -
 Matrix.h
-C:/Users/Mistrz/Dropbox/Pwr/Semestr 3/Tech Efektywnego Programowania/Lab/MatrixProject/Matrix.h
+C:/Users/domst/Dropbox/Pwr/Semestr 3/Tech Efektywnego Programowania/Lab/MatrixProject/Matrix.h
 
