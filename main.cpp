@@ -14,8 +14,7 @@ int matrixFromFileExample(){
     return 0;
 }
 
-
-int main() {
+int matrixExample(){
     Matrix<int> matrix1(3,4, "matrix_1");
     matrix1.fillMatrixWith(2);
     matrix1.printMatrix();
@@ -30,7 +29,29 @@ int main() {
 
     cout << endl << "Produkt skalarny matrix1: " << matrix1.scalarProduct(matrix1);
 
-    matrixFromFileExample();
+    return 0;
+}
+
+int main(int argc, char *argv[]) {
+
+    if (argc == 1) {
+        // Examples
+        matrixExample();
+        matrixFromFileExample();
+    }
+    else {
+        // Create matrix with user arguments
+        if (argc >= 3 && stoi(argv[1]) != 0 && stoi(argv[2])){
+            Matrix<int> matrix(stoi(argv[2]),stoi(argv[1]), "matrix");
+
+            if (argc >= 4)
+                matrix.fillMatrixWith(stoi(argv[3]));
+            else
+                matrix.fillMatrixDef();
+
+            matrix.printMatrix();
+        }
+    }
 
     return 0;
 }
