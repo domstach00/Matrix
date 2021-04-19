@@ -65,7 +65,7 @@ template<typename T>
 Matrix<T>::Matrix() {
     sizeVertical = 0;
     sizeHorizontal = 0;
-    name = "KonstrDomyslny";
+    name = "defaultConstructor";
 }
 
 template<typename T>
@@ -93,7 +93,7 @@ Matrix<T>::Matrix(int vertical, int horizontal, string nameOfMatrix) {
 template<typename T>
 Matrix<T>::Matrix(const Matrix &other) {
     if (other.matrix == NULL){
-        cout << endl << "Pusta macierz w: " << other.name;
+        cout << endl << "Empty matrix in: " << other.name;
         return;
     }
 
@@ -175,13 +175,13 @@ void Matrix<T>::fillMatrixDef() {
 template<typename T>
 void Matrix<T>::printMatrix() {
     if (matrix == NULL){
-        cout << endl << "Brak macierzy do wyswietlenia";
+        cout << endl << "There is no matrix to display";
         return;
     }
 
-    cout << endl << endl << "\tWyswietlanie macierzy";
+    cout << endl << endl << "\tDisplaying the matrix";
 
-    if (name != "") // jesli macierz ma nazwe to zostanie wyswielona
+    if (name != "") // if the matrix has a name it will be displayed
         cout << " " << name;
     cout << ": " <<endl;
 
@@ -196,7 +196,7 @@ void Matrix<T>::printMatrix() {
 template<typename T>
 Matrix<T> Matrix<T>::operator+(Matrix &other) {
     if (sizeHorizontal != other.sizeHorizontal || sizeVertical != other.sizeVertical){
-        cout << endl << "Macierze maja rozna wielkosc";
+        cout << endl << "Matrices have different sizes";
         return NULL;
     }
     if (matrix == NULL)
@@ -218,7 +218,7 @@ Matrix<T> Matrix<T>::operator+(Matrix &other) {
 template<typename T>
 Matrix<T> Matrix<T>::operator-(Matrix &other) {
     if (sizeHorizontal != other.sizeHorizontal || sizeVertical != other.sizeVertical){
-        cout << endl << "Macierze maja rozna wielkosc";
+        cout << endl << "Matrices have different sizes";
         return Matrix();
     }
     if (matrix == NULL)
@@ -276,7 +276,7 @@ template<typename T>
 template<typename E>
 Matrix<T> Matrix<T>::operator*(E arg) {
     if (matrix == NULL){
-        cout << endl << "Obiekt nie posiada macierzy";
+        cout << endl << "The object has no matrix";
         return *this;
     }
 
@@ -292,15 +292,15 @@ Matrix<T> Matrix<T>::operator*(E arg) {
 template<typename T>
 Matrix<T> Matrix<T>::operator*(Matrix &other) {
     if (matrix == NULL){
-        cout << endl << "Obiekt nie posiada macierzy";
+        cout << endl << "The object has no matrix";
         return other;
     }
     if (other.matrix == NULL){
-        cout << endl << "Obiekt nie posiada macierzy";
+        cout << endl << "The object has no matrix";
         return *this;
     }
     if (sizeHorizontal != other.sizeVertical){
-        cout << endl << "Niepoprawne wymiary miacierzy";
+        cout << endl << "Incorrect matrix dimensions";
         return Matrix();
     }
 
@@ -340,7 +340,7 @@ Matrix<T> Matrix<T>::operator*(Matrix &other) {
 template<typename T>
 Matrix<T> Matrix<T>::transpose() {
     if (matrix == NULL){
-        cout << endl << "Obiekt nie posiada macierzy";
+        cout << endl << "The object has no matrix";
         return *this;
     }
 
@@ -382,12 +382,12 @@ void Matrix<T>::delMatrix() {
 template<typename T>
 bool Matrix<T>::set(int vertical, int horizontal, T val) {
     if (matrix == NULL){
-        cout << endl << "Brak macierzy";
+        cout << endl << "No matrix";
         return false;
     }
 
     if (vertical >= sizeVertical || horizontal >= sizeHorizontal || horizontal < 0 || vertical < 0) {
-        cout << endl << "Wskazane pole jest poza zakresem";
+        cout << endl << "The indicated field is out of range";
         return false;
     }
 
@@ -399,12 +399,12 @@ bool Matrix<T>::set(int vertical, int horizontal, T val) {
 template<typename T>
 T Matrix<T>::get(int vertical, int horizontal) {
     if (matrix == NULL){
-        cout << endl << "Brak macierzy";
+        cout << endl << "No matrix";
         return T();
     }
 
     if (vertical >= sizeVertical || horizontal >= sizeHorizontal || horizontal < 0 || vertical < 0){
-        cout << endl << "Wskazane pole jest poza zakresem";
+        cout << endl << "The indicated field is out of range";
         return T();
     }
 
@@ -417,7 +417,7 @@ int Matrix<T>::countLines(string path) {
     file.open(path);
 
     if (!file.good()){
-        cout << endl << "Blad podczas wczytywania pliku w metodzie countLines";
+        cout << endl << "Error loading file in countLines method";
         return 0;
     }
 
@@ -441,7 +441,7 @@ int Matrix<T>::countWidth(string path, int linesNr) {
     file.open(path);
 
     if (!file.good()){
-        cout << endl << "Blad podczas wczytywania pliku w metodzie countWidth";
+        cout << endl << "Error loading file in countWidth method";
         return 0;
     }
 
@@ -454,7 +454,7 @@ int Matrix<T>::countWidth(string path, int linesNr) {
     file.close();
 
     if (count % linesNr != 0){
-        cout << endl << "Niepoprawny plik, bledna ilosc wartosci macierzy";
+        cout << endl << "Invalid file, wrong number of matrix values";
         return 0;
     }
 
@@ -464,12 +464,12 @@ int Matrix<T>::countWidth(string path, int linesNr) {
 template<typename T>
 T Matrix<T>::scalarProduct(Matrix &other) {
     if (matrix == NULL || other.matrix == NULL){
-        cout << endl << "Brak macierzy";
+        cout << endl << "No matrix";
 
     }
 
     if (sizeHorizontal != other.sizeHorizontal || sizeVertical != other.sizeVertical){
-        cout << endl << "Rozmiary macierzy nie sa zgodne";
+        cout << endl << "Matrix sizes do not match";
 
     }
 
@@ -488,12 +488,12 @@ T Matrix<T>::scalarProduct(Matrix &other) {
 template<typename T>
 bool Matrix<T>::setAsIdentityMatrix() {
     if (matrix == NULL){
-        cout << endl << "Brak macierzy";
+        cout << endl << "No matrix";
         return false;
     }
 
     if (sizeVertical != sizeHorizontal) {
-        cout << endl << "Ta macierz nie jest kwadratowa";
+        cout << endl << "This matrix is not square";
         return false;
     }
 
@@ -513,12 +513,12 @@ bool Matrix<T>::setAsIdentityMatrix() {
 template<typename T>
 Matrix<T> Matrix<T>::createHorizontalVector(int verticalOffSet) {
     if (matrix == NULL) {
-        cout << endl << "Brak macierzy";
+        cout << endl << "No matrix";
         return *this;
     }
 
     if (verticalOffSet >= sizeVertical || verticalOffSet < 0) {
-        cout << endl << "Wskazany wiersz macierzy jest poza zakresem";
+        cout << endl << "The specified row of the matrix is out of range";
         return *this;
     }
 
@@ -535,12 +535,12 @@ Matrix<T> Matrix<T>::createHorizontalVector(int verticalOffSet) {
 template<typename T>
 Matrix<T> Matrix<T>::createVerticalVector(int horizontalOffSet) {
     if (matrix == NULL) {
-        cout << endl << "Brak macierzy";
+        cout << endl << "No matrix";
         return *this;
     }
 
     if (horizontalOffSet >= sizeHorizontal || horizontalOffSet < 0) {
-        cout << endl << "Wskazana kolumna macierzy jest poza zakresem";
+        cout << endl << "The indicated matrix column is out of range";
         return *this;
     }
 

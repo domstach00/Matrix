@@ -27,7 +27,7 @@ int matrixExample(){
     mat.operator=(matrix1.operator*(matrix2));
     mat.printMatrix();
 
-    cout << endl << "Produkt skalarny matrix1: " << matrix1.scalarProduct(matrix1);
+    cout << endl << "Scalar product matrix1: " << matrix1.scalarProduct(matrix1);
 
     return 0;
 }
